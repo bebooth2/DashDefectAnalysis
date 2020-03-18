@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  
+  }
+  body {
+    /* font-size: 0.75rem; */
+    margin: 0;
+   
+    padding: 0;
+    
+    background-color: #000000;
+    font-family: "Asap", sans-serif;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+  }
+  H3{
+    color: white;
+  }
+
+  .box {
+    /* float: left; */
+    width: 15%;
+    padding: 3em;
+    display: inline-block;
+  }
+ 
+  
+  .box1 {
+    float: left;
+    width: 55%;
+    padding: 3em;
+   
+  }
+  .box2 {
+    float: left;
+    width: 40%;
+    padding: 3em;
+  }
+  .box3 {
+    float: left;
+    width: 60%;
+    padding: 3em;
+  }
+  .box4 {
+    float: left;
+    width: 35%;
+    padding: 3em;
+  }
+  .box_3d1 {
+    float: left;
+    width: 40%;
+    padding: 1em;
+  }
+  .box_3d2 {
+    float: left;
+    width: 40%;
+    padding: 1em;
+  }
+
+
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  .button1:hover {
+    box-shadow: 2px 2px 2px 2px rgb(141, 24, 24);
+    /* transition: box-shadow 0.5s; */
+  }
+  .button {
+    /* background-color: #4CAF50; */
+    color: white;
+    /* padding: 10px 25px; */
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    
+  }
+
+
