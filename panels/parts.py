@@ -3,10 +3,10 @@ import dash_table
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly.graph_objs as go
-from graphPrograms import apuTracker_final as apu
-from graphPrograms import df_by_press_or_parts as dpp
+#from graphPrograms import apuTracker_final as apu
+#from graphPrograms import df_by_press_or_parts as dpp
 #from graphPrograms import defects_placement_final2 as dfp
-from graphPrograms import pivot_by_part as pbp
+#from graphPrograms import pivot_by_part as pbp
 
 
 import numpy as np
